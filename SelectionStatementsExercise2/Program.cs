@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
         }
-        
+
         public static void FavSubject()
         {
 
@@ -30,23 +30,24 @@
                 case "music":
                     Console.WriteLine("I had alot of fun in music class");
                     break;
-
-
+                default:
+                    Console.WriteLine("Oops forgot about that one");
+                    break;
             }
-        
-        
+
+
+
         }
+
+
+     }
+
+
+}        
         
         
         
         
         
         
-        
-        
-        
-        
-        
-        
-    }
-}
+    
